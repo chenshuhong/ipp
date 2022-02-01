@@ -5,6 +5,7 @@ module.exports = {
 	parse: require('./lib/parser'),
 	serialize: require('./lib/serializer'),
 	request: require('./lib/request'),
+	wxRequest: require('./lib/wxRequest'),
 	Printer: require('./lib/printer'),
 	versions: require('./lib/versions'),
 	attributes: require('./lib/attributes'),
