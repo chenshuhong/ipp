@@ -11,9 +11,6 @@ const serializeData = ipp.serialize({
 });
 
 
-const parseData = ipp.parse(serializeData)
-
-console.log(JSON.stringify(parseData,null,2))
 
 
 ipp.request(uri,serializeData,function (err,res){
