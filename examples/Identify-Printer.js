@@ -1,7 +1,7 @@
 var ipp = require('./../ipp');
 var id = 0x0123;//made up reqid
 
-var printer = ipp.Printer("http://cp02.local.:631/ipp/printer");
+var printer = ipp.Printer("http://172.16.1.33.:631/ipp/printer");
 var msg = {
 	"operation-attributes-tag": {
 		"requesting-user-name": "William",
